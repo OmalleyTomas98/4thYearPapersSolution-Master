@@ -1,0 +1,353 @@
+
+\newlist{coloritemize}{itemize}{1}
+
+\setlist[coloritemize]{label=\textcolor{itemizecolor}{\textbullet}}
+\colorlet{itemizecolor}{.}% Default colour for \item in itemizecolor
+
+\setlength{\parindent}{0pt}% Just for this example
+
+
+
+
+This is a LaTeX document holding The answers/questions from 2015 exam papers to 2019 for the module COMP08016 -- Artificial Intelligence.
+This .pdf acts as a study aid for any student preparing for the 2hr written paper session during May or August(Repeat).Best of Luck
+
+
+\colorlet{itemizecolor}{black}
+
+\begin{coloritemize}
+  \item Black is Examiners Question
+
+\end{coloritemize}
+
+\colorlet{itemizecolor}{blue}
+
+\begin{coloritemize}
+  \item Blue is my sample question
+\end{coloritemize}
+
+
+\subsection{Artificial Intelligence - Exam paper 2018-19 Semester 8}
+
+
+\begin{enumerate}
+   \item Question 1 (25 marks)
+   \begin{itemize}
+     \item Describe, using examples where appropriate, how an Artificial Neural Network
+          (ANN) can be trained to learn classification tasks that are linearly-separable. Include
+          a fully labelled diagram in your answer, showing the structure of a perceptron and
+          explain the key steps involved in the training process.
+          (15 Marks)
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+
+     \item Discuss the structure and function of a multilayer back-propagation neural network.
+            Your answer should include a diagram that illustrates the direction of information
+            flow through the network, how errors are back-propagated and address the techniques
+            for choosing a network topology.
+            (10 Marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+   \end{itemize}
+   \item Question 2 (25 marks)
+   \begin{itemize}
+     \item Figure 1 below depicts a semantic network of eight nodes interconnected by edges.
+The starting node is node ‘A” and “H” is the goal node. Each node is labelled with a
+letter in the upper compartment and a heuristic estimate of distance to the goal node in
+the lower compartment. The actual distance between two nodes is shown as a number
+along their connecting edge.
+
+
+\begin{center}
+
+
+
+
+{\includegraphics[width=0.5\textwidth]{q1.png}}\\
+
+\end{center}
+
+
+
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+
+
+     \item  (a) Show how the A* algorithm can find the optimal path from the initial node (A) to the
+goal node (H). Your answer should clearly show the state of the OPEN and CLOSED
+queues for each iteration of the algorithm and how the path evaluation function, f(n),
+is computed.
+(11 Marks)
+
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+
+
+     \item (b) Discuss the efficiency of the A* algorithm and the parts of the algorithm that
+contribute most to the computational complexity of the search of a semantic network.
+Your answer should also address how different types of graph topologies may impact
+the performance of A*.
+(6 Marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+
+
+
+
+
+
+ \item (c) Using a diagram and code snippets where appropriate, discuss how iterative
+deepening can be applied to A* to reduce computational complexity without
+compromising algorithmic optimality and completeness.
+(8 Marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+   \end{itemize}
+
+
+   \item Question 3 (25 marks)
+   \begin{itemize}
+     \item Figure 2 below depicts a 4-ply game tree having leaf nodes decorated
+with a score that represents the computation of a static evaluation function:
+
+\begin{center}
+
+
+
+
+{\includegraphics[width=0.5\textwidth]{q1.png}}\\
+
+\end{center}
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+     \item (a) Show, using labelled diagrams, how the minimax algorithm can determine the best
+move to make from node ‘A’. Your answer should clearly illustrate how MAX and
+MIN values are computed at each level.
+(10 Marks)
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+\item  (b) Describe how alpha-beta pruning can be applied to the game tree in Figure 2 to
+reduce the number of nodes to be generated and examined. Your answer should show
+the pruned game tree, indicate the alpha and beta cut-off points and address the
+computational effectiveness of alpha-beta pruning.
+(15 Marks)
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+   \end{itemize}
+
+
+
+
+
+      \item Question 4 (25 marks)
+      \begin{itemize}
+        \item (a) Explain, using examples, the following terms as they apply to heuristic search
+algorithms:\\
+- Admissibility \\
+- Monotonicity \\
+- Foothills and Plateaux\\
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+        \item (b) Discuss how steepest-ascent can overcome the limitations of the basic hill-climbing
+algorithm and contrast hill-climbing and best-first approaches. Use diagrams and
+pseudocode or Java snippets to illustrate your answer.
+(10 Marks)
+
+
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+\item (c) Explain how simulated annealing can be used to overcome the limitations of hill-climbing
+algorithms when searching for an optimal solution to a search problem.
+(6 Marks)
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+      \end{itemize}
+
+
+
+
+         \item Question 5 (25 marks)
+         \begin{itemize}
+           \item (a) Explain the fuzzy set operations that underpin fuzzy logic and explain how they
+relate to Boolean logic. Include diagrams with your answer where appropriate.(8 marks)
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+           \item  (b) An autonomous car has a braking system implemented using fuzzy logic, that
+applies pressure to a brake in response to the distance of an object ahead of it and the
+amount of rain on a road surface. Figures 3, 4 and 5 below depict fuzzy sets that
+describe the linguistic variables distance, road and brake respectively that are used
+by the braking system. The universe of discourse ranges from 0 – 100 metres for the
+variable distance and from 0 – 5mm for the variable road. The linguistic variable
+brake is defined using singleton spikes and has a universe of discourse spanning the
+range 0-100 percent \\
+
+The following three rules describe the reasoning used by a fuzzy inference system:\\
+
+-  IF distance IS very very short OR road IS extremely dry THEN brake IS more
+or less hard \\
+- IF distance IS not slightly long AND road IS somewhat moist THEN brake IS
+not soft \\
+- IF distance IS medium AND road IS not very wet THEN brake IS very normal \\
+
+Compute, using the Sugeno inference method, the predicted braking pressure with
+input parameters of distance = 30 metres and road = 3mm of rain. Your answer
+should clearly show each step in the fuzzy inference process.
+(17 Marks)
+
+
+\begin{center}
+
+
+
+
+{\includegraphics[width=0.5\textwidth]{q3.png}}\\
+
+\end{center}
+
+
+\begin{center}
+
+
+
+
+{\includegraphics[width=0.5\textwidth]{q4.png}}\\
+
+\end{center}
+
+
+
+
+
+\begin{center}
+
+
+
+
+{\includegraphics[width=0.5\textwidth]{q5.png}}\\
+
+\end{center}
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+
+\begin{center}
+
+
+Formula
+
+{\includegraphics[width=0.5\textwidth]{table.png}}\\
+
+\end{center}
+
+ 
+         \end{itemize}
+
+
+
+
+
+
+   \end{enumerate}

@@ -1,0 +1,234 @@
+\setlist[coloritemize]{label=\textcolor{itemizecolor}{\textbullet}}
+\colorlet{itemizecolor}{.}% Default colour for \item in itemizecolor
+
+\setlength{\parindent}{0pt}% Just for this example
+
+
+\colorlet{itemizecolor}{black}
+
+\begin{coloritemize}
+  \item Black is Examiners Question
+
+\end{coloritemize}
+
+\colorlet{itemizecolor}{blue}
+
+\begin{coloritemize}
+  \item Blue is my sample question
+\end{coloritemize}
+
+
+\subsection{Distributed Systems - Exam paper 2016-17 Semester 7}
+
+
+
+\begin{enumerate}
+   \item Question 1 (25 marks)
+   \begin{itemize}
+     \item  Using diagrams and examples where appropriate, explain the following terms as
+they apply to distributed systems:(9)\\
+
+Heterogeneity\\
+Scalability\\
+Transparency\\
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+
+
+     \item “A façade can be used to shield a client from the complexity of a distributed
+system and promote loose coupling between service requestors and
+providers.”\\
+
+
+Discuss this statement. Your answer should address how session and message
+façades can be used to aggregate services and increase the scalability of a
+distributed system.(16 marks)\\
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+   \end{itemize}
+   \item Question 2 (25 marks)
+   \begin{itemize}
+
+
+     \item “Marshalling frameworks based on highly structured unicode formats have
+largely supplanted serialisation and binary data transfer formats.”\\
+
+
+You are required to provide a critique of this statement. Your answer should
+compare XML, JSON and lower-level marshalling formats in terms of
+heterogeneity, extensibility and efficiency.(15marks)\\
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+\item Describe, using examples, the main roles and their function in both XML and
+RESTful Service Oriented Architectures (SOA) .(6 marks)
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+\item Explain any advantages that a SOA may have over lower-level procedural and
+method-oriented remote communication models.(4 marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}   \end{itemize}
+
+
+   \item Question 3 (25 marks)
+   \begin{itemize}
+
+
+
+
+     \item  “C.J. Date’s rules for distributed databases define a set of objectives that
+must be satisfied by a fully Distributed Database System (DDBS).”\\
+
+Discuss the degree to which relational, wide-column and graph database
+models can be considered to be fully DDBS using the criteria specified by C.J.
+Date.(15 marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+\item Explain how a distributed tuple store can exploit a hash-ring to promote both
+high availability and scalability. Include in your answer a diagram showing
+how a hash ring can be used to partition and locate database nodes.(10 marks)
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}   \end{itemize}
+
+
+
+      \item Question 4 (25 marks)
+      \begin{itemize}
+
+
+
+
+
+        \item Describe, using UML and diagrams where relevant, the function of the
+following components of the RMI architecture:
+   (9 marks)\\
+   Remote Interfaces\\
+   Remote and Dynamic Proxies\\
+   Naming Services\\
+
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+   \item Discuss how RMI can be used to simulate a pass-by-reference. Your
+answer should be accompanied by a diagram illustrating the component
+parts involved in the process and code snippets showing the key
+interactions.(11 marks)
+
+
+  
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+  \item Briefly, explain how the RMI architecture can be adapted to enable direct
+communication with a remote CORBA orb.(5 marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+      \end{itemize}
+
+
+
+
+         \item Question 5 (25 marks)
+         \begin{itemize}
+
+
+
+
+
+           \item Using a fully labelled diagram, describe the major components of an Object
+Request Broker (ORB) and their function in the CORBA architecture. 
+      (13 marks)
+
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+\item ) The following two Java interfaces abstract an PurchaseOrder and an LineItem
+respectively. 
+
+
+
+package ie.gmit.sw;\\
+public interface LineItem {\\
+ String itemNumber ();\\
+ String name ();\\
+ int quantity ();\\
+ double price ();\\
+}\\
+package ie.gmit.sw;\\
+public interface PurchaseOrder{\\
+ String poNumber();\\
+ void add (LineItem i);\\
+ void remove (LineItem i) throws ItemNotFoundException;\\
+ int count ();\\
+ LineItem[] items ();\\
+}\\
+
+
+Translate the two Java interfaces into their CORBA Interface Definition
+Language (IDL) representation and show how the IDL module may be compiled
+and orchestrated into a set of server-side classes. (12 marks)
+
+\begin{coloritemize}
+
+  \item my answer
+\end{coloritemize}
+
+
+
+         \end{itemize}
+
+
+
+
+
+
+   \end{enumerate}

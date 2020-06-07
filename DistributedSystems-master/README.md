@@ -1,0 +1,5 @@
+# Final Year Exam Prep Distributed Systems 
+Module - Distributed   Systems  : 4th Year Software Development at Galway mayo Institute of Technology
+- Created with [TexMaker](https://www.xm1math.net/texmaker/) 
+- This is a LaTeX document holding The answers/questions from 2015 exam papers to 2020 for the module 45620 -- Distributed Systems.
+This .pdf acts as a study aid for any student preparing for the 2hr written paper session during Winter or Summer(Repeat).Happy reading :)
